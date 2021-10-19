@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedorEleccion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <RadioGroup
+        android:id="@+id/txtDecision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnRojo"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonOnClick"
+            android:text="@string/pastillaRoja" />
+
+        <RadioButton
+            android:id="@+id/btnAzul"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonOnClick"
+            android:text="@string/pastillaAzul" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultadoDefault" />
+
+    <Button
+        android:id="@+id/txtLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/limpiarBotones" />
+
+    <Button
+        android:id="@+id/tomarPastilla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarFinal"
+        android:text="@string/tomarPastilla" />
+
+</LinearLayout>

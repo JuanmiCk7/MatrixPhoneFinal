@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Matrix</string>
+    <string name="nombre">Bienvenido, ¿Cuál es tu nombre?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="pastillaRoja">Pastilla roja</string>
+    <string name="pastillaAzul">Pastilla azul</string>
+    <string name="resultadoDefault">Reflexiona...</string>
+    <string name="resultadoRojo">Estás eligiendo seguir con tu miserable vida</string>
+    <string name="resultadoAzul">Estás eligiendo adentrarte en MatrixPhone</string>
+    <string name="tomarPastilla">Tomar pastilla</string>
+    <string name="salir">Salir</string>
+    <string name="limpiarBotones">Limpiar</string>
+    <string name="avisoNombre">Debes introducir un nombre...</string>
+</resources>
